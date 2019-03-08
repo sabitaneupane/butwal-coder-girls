@@ -1,0 +1,853 @@
+/***************************/
+Title theme color: teal;
+important contant color:#FF6347 ;
+Section theme color: #eeeeee;
+
+
+/***************************/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper{
+	max-width: 1349px;
+	margin:auto;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+/*********************minor design starts **********************/
+.active a{
+  background-color:black!important;
+}
+
+a{
+  text-decoration: none!important;
+}
+/*********************minor design ends **********************/
+
+
+
+/**************** Website Theme *********************/
+
+/* font format starts*/
+.titleFontFormat{
+  font-family: 'Merriweather', serif;
+}
+.firstLetter{ 
+  padding-left: 40px;
+}
+.butwalcodergirls_section_head a{
+  font-family: 'Merriweather', serif;
+  font-size: 260%;
+}
+
+/* font format ends*/
+
+/* read more button starts*/
+.butwalcodergirls_readmore_button {
+  margin-top: 40px;
+}
+.butwalcodergirls_readmore_button a{
+  background:tomato;
+  padding: 15px 20px;
+  color:white;
+  text-decoration: none;
+  border:1px solid #eeeeee;
+  border-radius: 5px;
+}
+.butwalcodergirls_readmore_button a:hover{
+  background-color:#eeeeee;
+  transition:1s;
+  color:black;
+  border:1px solid black;
+}
+/* read more button ends*/
+
+
+/* section padding starts*/
+.sectionPadding{
+  padding: 60px;
+}
+.sectionTopPadding{
+  padding-top:30px;
+}
+/* section padding ends*/
+
+
+/* social link  starts*/
+#butwalcodergirls_icon_wrapper {
+    position: fixed;
+    top: 25%;
+    left: -10px!important;
+    z-index: 99999;
+    background-color: white;
+    opacity: 0.8;
+    padding: 10px;
+}
+#butwalcodergirls_icon_wrapper:hover{
+    left: 0px!important;
+    transition: 0.6s;
+}
+#butwalcodergirls_icon_wrapper div a {
+    font-size: 20px;
+}
+/* social link  ends*/
+
+
+/* navigation starts*/
+.navbar-nav>li>.dropdown-menu{
+	background-color:teal;
+	margin-top: 5px!important;
+}
+/* navigation ends*/
+
+
+/* section starts*/
+#section{
+	background-color: #eeeeee;
+}
+/* section ends*/
+
+
+/* footer starts starts*/
+#footer{
+	background-color: #000000;
+	color: white;
+}
+
+/* footer ends starts*/
+
+
+
+
+
+
+/***************** Website Theme  *********************/
+
+
+
+/*********************header info starts **********************/
+#butwalcodergirls_home_title {
+  background: url('../img/hometitleBg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#butwalcodergirls_home_title #hometitleBg{
+  background-color: rgba(0,0,0, 0.6);
+  position: relative;
+  height:640px;
+}
+#butwalcodergirls_home_title #hometitleBg h1{
+ color:white;
+ top: 35%;
+ left: 25%;
+ position:absolute;
+}
+
+#butwalcodergirls_home_title #hometitleBg h4{
+  color:white;
+  background-color: #FF6347;
+  padding:5px;
+  top: 50%;
+  left: 30%;
+  position:absolute;
+}
+
+/* navigation starts*/
+
+.navbar-bg {
+   background: transparent;
+   border:none;
+   width: 100%;
+   opacity: 0.8;
+   -webkit-transition: all 0.8s ease-in-out;
+   -moz-transition: all 0.8s ease-in-out;
+   -o-transition: all 0.8s ease-in-out;
+   transition: all 0.8s ease-in-out;
+ }
+ .navbar-bg li a{
+   color:white!important;
+ }
+ .navbar-bg li:hover{
+   background-color: #d32f2f;
+ }
+ .navbar-bg li a:hover{
+   color:black!important;
+ }
+.navbar-brand{
+   padding: 20px 20px;
+   color:white!important;
+ }
+
+ .scrollNavEffectshow {
+   opacity: 0.8;
+   background: teal;
+ }
+ .scrollNavEffectshow li a{
+   padding: 20px 20px;
+   transition: 2s;
+   color:white!important;
+ }
+
+ .scrollNavEffectshow #butwalcodergirls_logo_div{
+   padding-left: 30px;
+   transition: 2s;
+ }
+
+ /* navigation ends*/ 
+#butwalcodergirls_logo_div a img{
+	width:80px!important;
+	height:80px!important;
+}
+/*********************header info ends **********************/
+
+
+/*********************footer info starts **********************/
+
+
+
+/*********************footer info ends **********************/
+
+
+/*********************section info starts **********************/
+
+/** slider section starts**/
+#butwalcodergirls_sliderImg{
+  /*filter: grayscale(50%);*/
+}
+
+#butwalcodergirls_slider_title span{
+  font-size: 40px;
+  padding: 5px 20px;
+}
+
+#butwalcodergirls_slider_subtitle span{
+  background-color: tomato;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+
+/** about us home page short details starts**/
+#butwalcodergirls_aboutus{
+  background-color: #FAFAFA;
+}
+#butwalcodergirls_aboutus_details p{
+  font-size: 120%;
+}
+
+#butwalcodergirls_youtube_embedded iframe{
+  width: 100%!important;
+  height: 420px!important;
+}
+
+#butwalcodergirls_aboutus_image figure img{
+  width: 100%;
+}
+/** about us home page short details ends**/
+
+
+/** objective home page starts**/
+#butwalcodergirls_objective{
+  background:#EEEEEE;
+}
+#butwalcodergirls_objective_contents .objBg{
+  background:#E0E0E0;
+  padding:  5px 20px;
+  color:black;
+  text-decoration: none;
+  border:1px solid #eeeeee;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.butwalcodergirls_objective_contents .objBg:hover{
+  background-color:#eeeeee;
+  transition:1s;
+  color:black;
+  border:1px solid black;
+}
+#butwalcodergirls_objective blockquote{
+  border-left:5px solid teal;
+}
+
+#butwalcodergirls_objective_contents h2 {
+  font-size: 180%!important;
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+}
+#butwalcodergirls_objective_contents p {
+  font-size: 120%!important;
+}
+
+/** objective home page ends **/
+
+
+/** our programs home page starts **/
+
+#butwalcodergirls_our_program {
+  background: url('../img/ourProgramBg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#butwalcodergirls_our_program #homeEventsBg{
+  background-color: rgba(0,128,128, 0.6);
+}
+#butwalcodergirls_our_program h1{
+  color:white;
+}
+
+#butwalcodergirls_our_program .contents h2{
+  font-size: 200%;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 20px;
+}
+
+#butwalcodergirls_our_program .contents p{
+  font-size: 120%;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 20px;
+}
+
+
+#butwalcodergirls_itcab_short_details{
+  background-color: #eeeeee;
+  padding:20px;
+
+}
+
+#butwalcodergirls_woment_short_details{
+  background-color: #eeeeee;
+  padding:20px;
+}
+/** our programs home page ends **/
+
+
+/** our events interview home page starts **/
+#butwalcodergirls_event_blog {
+  background: #EEEEEE;
+}
+#butwalcodergirls_event_blog #contents  .media{
+  padding:10px 20px;
+  border:1px solid white;
+  background: #E0E0E0;
+}
+#butwalcodergirls_event_blog #contents  .media:hover{
+  padding:10px 20px;
+  border:1px solid tomato;
+  background: tomato;
+  color:white;
+  transition: 0.6s;
+}
+#butwalcodergirls_event_blog #contents  .media:hover a{
+  color:black;
+  transition: 0.6s;
+}
+#butwalcodergirls_event_blog #contents  .media-body a{
+ text-decoration: blink;!important;
+ color:teal;
+}
+
+#butwalcodergirls_event_blog .media-object{
+  width: 90px;
+  height: 90px;
+}
+#butwalcodergirls_event_blog #contents  .media-heading{
+  font-size: 120%!important;
+  font-family: 'Merriweather', serif;
+  
+}
+#butwalcodergirls_event_blog #contents  .media-content{
+  font-size: 120%!important;
+  font-family: 'Lato', sans-serif;
+}
+
+/** our events interview home page ends **/
+
+
+/** our project home page starts **/
+
+#butwalcodergirls_projects_short_detail{
+  background-color: #FAFAFA;
+  width: 100%;
+}
+#butwalcodergirls_projects_short_detail #homeProjectBody img{
+  width: 100%;
+  height: 320px;
+}
+#butwalcodergirls_projects_short_detail .overlay_image_container {
+    position: relative;
+}
+
+#butwalcodergirls_projects_short_detail .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#butwalcodergirls_projects_short_detail .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,128,128, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+#butwalcodergirls_projects_short_detail .overlay_image_container:hover .overlay {
+  height: 100%;
+}
+
+#butwalcodergirls_projects_short_detail .text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#butwalcodergirls_projects_short_detail .overlay_link{
+  text-decoration: none;
+  color: white;
+  background-color: #FF6347;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+#butwalcodergirls_projects_short_detail .overlay_link:hover{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  background-color: white;
+}
+/** our project home page ends **/
+
+
+/**testimonials home page starts **/
+
+#butwalcodergirls_testinomials {
+  background: url('../img/ourProgramBg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#butwalcodergirls_testinomials #hometestinomialsBg{
+  background-color: rgba(0,128,128, 0.6);
+  padding-bottom: 5px!important;
+}
+#butwalcodergirls_testinomials h1{
+  color:white;
+}
+#butwalcodergirls_testinomials #quote-carousel {
+    color: white;
+}
+#butwalcodergirls_testinomials #quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#butwalcodergirls_testinomials #quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 10px;
+    margin-right: -19px;
+}
+#butwalcodergirls_testinomials #quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#butwalcodergirls_testinomials #quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+#butwalcodergirls_testinomials .item blockquote {
+    border-left: none;
+    margin: 0;
+}
+#butwalcodergirls_testinomials .item small {
+    font-size: 20px;
+    color:white;
+}
+#butwalcodergirls_testinomials .item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+/** testimonials home page ends **/
+
+/**  home page tutorials gallery starts **/
+#butwalcodergirls_tutorials_gallery{
+  background: #eeeeee;
+}
+
+#butwalcodergirls_home_tutorials .panel-heading{
+  background-color:teal!important; 
+  color: white;
+}
+#butwalcodergirls_home_tutorials .panel-heading a{
+  text-decoration: none;
+}
+#butwalcodergirls_home_tutorials .panel-default{
+  background-color:#E0E0E0!important; 
+  color: black;
+}
+#butwalcodergirls_home_tutorials .panel-default:hover .panel-heading{
+  background-color:tomato!important; 
+  color: white;
+  transition: 0.6s;
+}
+
+#butwalcodergirls_home_gallery .overlay_image_container {
+    position: relative;
+}
+
+#butwalcodergirls_home_gallery .image {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+#butwalcodergirls_home_gallery .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,128,128, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+#butwalcodergirls_home_gallery .overlay_image_container:hover .overlay {
+  height: 100%;
+}
+
+#butwalcodergirls_home_gallery .text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#butwalcodergirls_home_gallery .overlay_link{
+  text-decoration: none;
+  color: white;
+  background-color: #FF6347;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+#butwalcodergirls_home_gallery .overlay_link:hover{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  background-color: white;
+}
+/**  home page tutorials gallery ends **/
+
+/**  home page contact us starts **/
+
+#butwalcodergirls_contactus {
+  background: url('../img/contactImg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+#butwalcodergirls_contactus #contactBg{
+  background-color: rgba(0,0,0, 0.8);
+}   
+#butwalcodergirls_contactus .contactinfo{
+  background-color: rgba(0,128,128, 0.6);
+  padding: 20px;
+}
+#butwalcodergirls_contactus .contactinfo .form-control{
+  margin-bottom: 10px!important;
+}
+
+#butwalcodergirls_contactus #messageSubmit {
+  background:tomato;
+  padding: 10px 20px;
+  color:white;
+  text-decoration: none;
+  border:0px ;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+#butwalcodergirls_contactus #messageSubmit:hover{
+  background-color:#eeeeee;
+  transition:1s;
+  color:black;
+}
+#butwalcodergirls_contactus .contactInfoBox{
+  border:1px solid black;
+  background-color:teal;
+  padding: 10px 20px;
+  font-size: 120%;
+  margin-bottom: 18px;
+}
+#butwalcodergirls_contactus .contactInfoBox:hover{
+  border:1px solid #EF5D43;
+  background-color:#EF5D43;
+  transition:1s;
+}
+/**  home page contact us ends **/
+
+
+#butwalcodergirls_copyright{
+  background-color: black;
+  color: white;
+}
+/*********************section info ends **********************/
+
+
+
+
+
+
+
+#butwalcodergirls_aboutus_title {
+  background: url('../img/hometitleBg.jpg');
+  background-size: cover;
+  background-repeat: no-repeatZ;
+  background-attachment: fixed;
+}
+#butwalcodergirls_aboutus_title #aboutusBg{
+  background-color: rgba(0,0,0, 0.6);
+  position: relative;
+  height:420px;
+}
+#butwalcodergirls_aboutus_title #aboutusBg h1{
+ color:white;
+ bottom:20px;
+ left:45%;
+ position:absolute;
+}
+
+#butwalcodergirls_founder_member .overlay_image_container {
+    position: relative;
+}
+
+#butwalcodergirls_founder_member .image {
+  display: block;
+  width: 140px;
+  height: 140px;
+}
+
+#butwalcodergirls_founder_member .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,128,128, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  /*border-radius: 140px;*/
+}
+#butwalcodergirls_founder_member_details{
+  padding: 10px;
+}
+#butwalcodergirls_founder_member_details .fa-1x{
+  color:white;
+}
+#butwalcodergirls_founder_member .overlay_image_container:hover .overlay {
+  height: 100%;
+}
+
+#butwalcodergirls_founder_member .text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#butwalcodergirls_founder_member .overlay_link{
+  text-decoration: none;
+  color: white;
+  background-color: #FF6347;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+#butwalcodergirls_founder_member .overlay_link:hover{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  background-color: white;
+}
+
+
+
+#butwalcodergirls_ITCab_details p{
+   font-size: 120%!important;
+}
+
+#butwalcodergirls_What_ITCab{
+  background: #FAFAFA;
+}
+#butwalcodergirls_Why_and_why_ITCab{
+  background: #EEEEEE;
+}
+#butwalcodergirls_ITCab_version{
+  background: #FFFFFF;
+}
+
+
+#butwalcodergirls_WoMenT_details p{
+   font-size: 120%!important;
+}
+#butwalcodergirls_What_WoMenT{
+  background: #FAFAFA;
+}
+#butwalcodergirls_Why_and_why_WoMenT{
+  background: #EEEEEE;
+}
+#butwalcodergirls_WoMenT_version{
+  background: #FFFFFF;
+}
+
+
+
+#butwalcodergirls_search_input{
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition:  0.4s ease-in-out;
+}
+
+
+#butwalcodergirls_search_input:focus {
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid black;
+}
+.titlebottomspace{
+  margin-bottom: 20px;
+}
+#butwalcodergirls_label_section label{
+ margin:5px 5px;
+}
+
+#butwalcodergirls_label_input{
+  background: black;
+  color: white;
+  padding: 3px 15px;
+ 
+}
+
+
+#postMediaContent{
+ border: 1px solid white;
+ padding: 20px 20px 20px 10px;
+ background: #F5F5F5;
+}
+
+#mediaDate{
+  font-size: 12px;
+}
+
+#postMediaImage{
+  width: 100px; height:100px;
+}
+
+#postMediaHeading{
+  color: #329898;
+}
+
+
+#postMediaContent:hover{
+ border: 1px solid gray;
+ padding: 20px 20px 20px 10px;
+ background: #FAFAFA;
+ transition:  0.4s ease-in-out;
+}
+
+
+
+.butwalcodergirls_span_head{
+  font-family: 'Merriweather', serif;
+  font-size: 160%;
+  border-bottom: 2px solid #0C7270;
+  padding-bottom: 5px;
+}
+
+.butwalcodergirls_span_head span{
+  background: #0C7270;
+  padding: 5px 20px;
+  color: white;
+}
+
+
+#butwalcodergirls_post_title a{
+  color: #0C7270;
+  font-family: 'Merriweather', serif;
+  font-size: 70%;
+}
+
+
+.mediaTitleContent a{
+  color: #0C7270;
+  font-size: 70%;
+  font-family: 'Merriweather', serif;
+}
+
+.galleryContent img{
+    margin-bottom: 20px;
+}
+
+.albumTitle{
+  font-size: 160%;
+}
+
+.albumTitle span{
+  border-bottom: 2px solid black;
+}
+
+.albulDesp{
+  font-size: 100%;
+}
